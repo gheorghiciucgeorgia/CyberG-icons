@@ -1,0 +1,592 @@
+@font-face {
+  font-family: 'CyberG';
+  src: url('fonts/CyberG.eot?wko2vg');
+  src: url('fonts/CyberG.eot?wko2vg#iefix') format('embedded-opentype'),
+    url('fonts/CyberG.ttf?wko2vg') format('truetype'),
+    url('fonts/CyberG.woff?wko2vg') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+i {
+  font-family: 'CyberG' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.cybg-brcode:before {
+  content: "\e900";
+}
+
+.cybg-cilinder:before {
+  content: "\e901";
+}
+
+.cybg-circle-01:before {
+  content: "\e902";
+}
+
+.cybg-circle-02:before {
+  content: "\e903";
+}
+
+.cybg-circle-03:before {
+  content: "\e904";
+}
+
+.cybg-circle-04:before {
+  content: "\e905";
+}
+
+.cybg-circle-05:before {
+  content: "\e906";
+}
+
+.cybg-circle-06:before {
+  content: "\e907";
+}
+
+.cybg-circle-07:before {
+  content: "\e908";
+}
+
+.cybg-circle-08:before {
+  content: "\e909";
+}
+
+.cybg-circle-09:before {
+  content: "\e90a";
+}
+
+.cybg-circle-10:before {
+  content: "\e90b";
+}
+
+.cybg-circle-11:before {
+  content: "\e90c";
+}
+
+.cybg-circle-12:before {
+  content: "\e90d";
+}
+
+.cybg-circle-13:before {
+  content: "\e90e";
+}
+
+.cybg-circle-14:before {
+  content: "\e90f";
+}
+
+.cybg-cross:before {
+  content: "\e910";
+}
+
+.cybg-cube:before {
+  content: "\e911";
+}
+
+.cybg-earth:before {
+  content: "\e912";
+}
+
+.cybg-ellipse:before {
+  content: "\e913";
+}
+
+.cybg-eye:before {
+  content: "\e914";
+}
+
+.cybg-flame .path1:before {
+  content: "\e915";
+  color: rgb(255, 255, 255);
+}
+
+.cybg-flame .path2:before {
+  content: "\e916";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.cybg-flower-01:before {
+  content: "\e917";
+}
+
+.cybg-flower-02 .path1:before {
+  content: "\e918";
+  color: rgb(255, 255, 255);
+}
+
+.cybg-flower-02 .path2:before {
+  content: "\e919";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.cybg-flower-02 .path3:before {
+  content: "\e91a";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.cybg-flower-02 .path4:before {
+  content: "\e91b";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.cybg-flower-02 .path5:before {
+  content: "\e91c";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.cybg-flower-02 .path6:before {
+  content: "\e91d";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.cybg-flower-02 .path7:before {
+  content: "\e91e";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.cybg-flower-02 .path8:before {
+  content: "\e91f";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.cybg-flower-02 .path9:before {
+  content: "\e920";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.cybg-flower-02 .path10:before {
+  content: "\e921";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.cybg-flower-02 .path11:before {
+  content: "\e922";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.cybg-flower-02 .path12:before {
+  content: "\e923";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.cybg-flower-02 .path13:before {
+  content: "\e924";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.cybg-flower-02 .path14:before {
+  content: "\e925";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.cybg-flower-03:before {
+  content: "\e926";
+}
+
+.cybg-flower-04:before {
+  content: "\e927";
+}
+
+.cybg-flower-05:before {
+  content: "\e928";
+}
+
+.cybg-flower-06:before {
+  content: "\e929";
+}
+
+.cybg-flower-07:before {
+  content: "\e92a";
+}
+
+.cybg-flower-08:before {
+  content: "\e92b";
+}
+
+.cybg-flower-09:before {
+  content: "\e92c";
+}
+
+.cybg-flower-10:before {
+  content: "\e92d";
+}
+
+.cybg-flower-11:before {
+  content: "\e92e";
+}
+
+.cybg-flower-12:before {
+  content: "\e92f";
+}
+
+.cybg-flower-13:before {
+  content: "\e930";
+}
+
+.cybg-flower-14:before {
+  content: "\e931";
+}
+
+.cybg-flower-15:before {
+  content: "\e932";
+}
+
+.cybg-flower-16:before {
+  content: "\e933";
+}
+
+.cybg-flower-17:before {
+  content: "\e934";
+}
+
+.cybg-flower-18:before {
+  content: "\e935";
+}
+
+.cybg-heart-01:before {
+  content: "\e936";
+}
+
+.cybg-heart-02:before {
+  content: "\e937";
+}
+
+.cybg-moon:before {
+  content: "\e938";
+}
+
+.cybg-planet-01 .path1:before {
+  content: "\e939";
+  color: rgb(0, 0, 0);
+}
+
+.cybg-planet-01 .path2:before {
+  content: "\e93a";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.cybg-planet-01 .path3:before {
+  content: "\e93b";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.cybg-planet-01 .path4:before {
+  content: "\e93c";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.cybg-planet-01 .path5:before {
+  content: "\e93d";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.cybg-planet-01 .path6:before {
+  content: "\e93e";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.cybg-planet-01 .path7:before {
+  content: "\e93f";
+  margin-left: -1em;
+  color: rgb(27, 27, 27);
+  opacity: 0.98;
+}
+
+.cybg-planet-01 .path8:before {
+  content: "\e940";
+  margin-left: -1em;
+  color: rgb(27, 27, 27);
+  opacity: 0.98;
+}
+
+.cybg-planet-01 .path9:before {
+  content: "\e941";
+  margin-left: -1em;
+  color: rgb(27, 27, 27);
+  opacity: 0.98;
+}
+
+.cybg-planet-01 .path10:before {
+  content: "\e942";
+  margin-left: -1em;
+  color: rgb(27, 27, 27);
+  opacity: 0.98;
+}
+
+.cybg-planet-01 .path11:before {
+  content: "\e943";
+  margin-left: -1em;
+  color: rgb(27, 27, 27);
+}
+
+.cybg-planet-02 .path1:before {
+  content: "\e944";
+  color: rgb(0, 0, 0);
+}
+
+.cybg-planet-02 .path2:before {
+  content: "\e945";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.cybg-planet-02 .path3:before {
+  content: "\e946";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.cybg-planet-02 .path4:before {
+  content: "\e947";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.cybg-planet-02 .path5:before {
+  content: "\e948";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.cybg-planet-02 .path6:before {
+  content: "\e949";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.cybg-planet-02 .path7:before {
+  content: "\e94a";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.cybg-planet-02 .path8:before {
+  content: "\e94b";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.cybg-planet-02 .path9:before {
+  content: "\e94c";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.cybg-planet-02 .path10:before {
+  content: "\e94d";
+  margin-left: -1em;
+  color: rgb(27, 27, 27);
+  opacity: 0.98;
+}
+
+.cybg-planet-02 .path11:before {
+  content: "\e94e";
+  margin-left: -1em;
+  color: rgb(27, 27, 27);
+  opacity: 0.98;
+}
+
+.cybg-planet-02 .path12:before {
+  content: "\e94f";
+  margin-left: -1em;
+  color: rgb(27, 27, 27);
+  opacity: 0.98;
+}
+
+.cybg-planet-02 .path13:before {
+  content: "\e950";
+  margin-left: -1em;
+  color: rgb(27, 27, 27);
+  opacity: 0.98;
+}
+
+.cybg-planet-02 .path14:before {
+  content: "\e951";
+  margin-left: -1em;
+  color: rgb(27, 27, 27);
+  opacity: 0.98;
+}
+
+.cybg-planet-02 .path15:before {
+  content: "\e952";
+  margin-left: -1em;
+  color: rgb(27, 27, 27);
+}
+
+.cybg-planet-03 .path1:before {
+  content: "\e953";
+  color: rgb(0, 0, 0);
+}
+
+.cybg-planet-03 .path2:before {
+  content: "\e954";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.cybg-planet-03 .path3:before {
+  content: "\e955";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.cybg-planet-03 .path4:before {
+  content: "\e956";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.cybg-planet-03 .path5:before {
+  content: "\e957";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.cybg-planet-03 .path6:before {
+  content: "\e958";
+  margin-left: -1em;
+  color: rgb(27, 27, 27);
+  opacity: 0.98;
+}
+
+.cybg-planet-03 .path7:before {
+  content: "\e959";
+  margin-left: -1em;
+  color: rgb(27, 27, 27);
+  opacity: 0.98;
+}
+
+.cybg-planet-03 .path8:before {
+  content: "\e95a";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.cybg-planet-03 .path9:before {
+  content: "\e95b";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.cybg-star-01:before {
+  content: "\e95c";
+}
+
+.cybg-star-02:before {
+  content: "\e95d";
+}
+
+.cybg-star-03:before {
+  content: "\e95e";
+}
+
+.cybg-star-04:before {
+  content: "\e95f";
+}
+
+.cybg-star-05:before {
+  content: "\e960";
+}
+
+.cybg-star-06:before {
+  content: "\e961";
+}
+
+.cybg-star-07:before {
+  content: "\e962";
+}
+
+.cybg-star-08:before {
+  content: "\e963";
+}
+
+.cybg-star-09:before {
+  content: "\e964";
+}
+
+.cybg-star-10:before {
+  content: "\e965";
+}
+
+.cybg-star-11:before {
+  content: "\e966";
+}
+
+.cybg-star-12:before {
+  content: "\e967";
+}
+
+.cybg-star-13:before {
+  content: "\e968";
+}
+
+.cybg-star-14:before {
+  content: "\e969";
+}
+
+.cybg-star-15:before {
+  content: "\e96a";
+}
+
+.cybg-star-16:before {
+  content: "\e96b";
+}
+
+.cybg-star-17:before {
+  content: "\e96c";
+}
+
+.cybg-star-18:before {
+  content: "\e96d";
+}
+
+.cybg-star-19:before {
+  content: "\e96e";
+}
+
+.cybg-star-20:before {
+  content: "\e96f";
+}
+
+.cybg-star-21:before {
+  content: "\e970";
+}
+
+.cybg-star-planetar-tensen:before {
+  content: "\e971";
+}
+
+.cybg-wave:before {
+  content: "\e972";
+}
