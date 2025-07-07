@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    font-family: "Michroma", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #C4E4FF;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+.guide {
+    margin: 50px 50px;
+    background-color: #D6589F;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.guide pre {
+    background: #23272e;
+    color: #fff;
+    padding: 14px 18px;
+    border-radius: 8px;
+    font-size: 1em;
+    margin: 10px 0 20px 0;
+    overflow-x: auto;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.guide code {
+    font-family: 'Fira Mono', 'Consolas', 'Menlo', monospace;
+    color: #ffb86c;
+    background: none;
+    font-size: 1em;
+}
+
+.icons {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 24px;
+    justify-items: center;
+    align-items: center;
+    padding: 24px;
+}
+
+.icon {
+    border: 2px solid #D895DA;
+    background-color: #D895DA;
+    color: #D20062;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+.icon .cybg {
+    font-size: 45pt;
+    margin-bottom: 25px;
+}
+
+.icon .ri-file-copy-line {
+    color: black;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+}
+
+.copied-msg {
+    background-color: #000;
+    color: white;
+    font-size: 10pt;
+    padding: 6px;
+    position: absolute;
+    border-radius: 5px;
+    top: -146%;
+    left: 63.5%;
+    font-family: 'Open Sans',
+        sans-serif;
+    white-space: nowrap;
+    z-index: 2;
+    pointer-events: none;
+}
