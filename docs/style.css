@@ -11,6 +11,15 @@ body {
     background-color: #C4E4FF;
 }
 
+header {
+    background-color: #D20062;
+    padding: 10px;
+    color: #C4E4FF;
+    text-align: center;
+    font-weight: bold;
+    ;
+}
+
 h1 {
     text-align: center;
 }
@@ -31,7 +40,7 @@ h1 {
     margin-right: 15px;
 }
 
-.content-menu {
+/* .content-menu {
     margin: 50px 50px;
     border-radius: 25px;
     padding: 25px 25px 25px 40px;
@@ -53,6 +62,10 @@ h1 {
 
 .content-menu ul li a {
     color: inherit;
+} */
+
+.introduction {
+    margin: 20px 50px;
 }
 
 .description {
@@ -83,7 +96,14 @@ h1 {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
-.guide code {
+.introduction code {
+    font-family: 'Fira Mono', 'Consolas', 'Menlo', monospace;
+    color: #D20062;
+    background: none;
+    font-size: 1em;
+}
+
+code {
     font-family: 'Fira Mono', 'Consolas', 'Menlo', monospace;
     color: #C4E4FF;
     background: none;
