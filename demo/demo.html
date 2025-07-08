@@ -3,9 +3,11 @@
 
 <head>
     <title>
-        Demo of the Icons Library
+        Docs of the CyberG Icons
     </title>
     <link rel="stylesheet" href="./style.css">
+    <!--Font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <!--Remix Icon-->
     <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
 
@@ -14,25 +16,106 @@
 </head>
 
 <body>
-    <h1>CyberG Icons</h1>
-    <h2>Downloading and Installation Guide</h2>
-    <div class="guide">
-        <h3>Install via CDN</h3>
-        <p>Copy and paste the following line into the <code>&lt;head&gt;</code> of your HTML file:</p>
-        <pre><code>&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/gheorghiciucgeorgia/CyberG-icons@v1.0.1/cyberG.css"&gt;</code></pre>
-
-        <h3>Usage Example</h3>
-        <p>To use an icon, add an <code>&lt;i&gt;</code> tag with the desired class. For example:</p>
-        <pre><code>&lt;i class="cybg-barcode cybg"&gt;&lt;/i&gt;</code></pre>
-
-        <h3>Download Locally</h3>
-        <p>
-            <a href="https://github.com/gheorghiciucgeorgia/CyberG-icons" target="_blank">Download from GitHub</a>
-        </p>
-        <p>After downloading, include the <code>cyberG.css</code> file in your project and link it in your HTML:</p>
-        <pre><code>&lt;link rel="stylesheet" href="path/to/cyberG.css"&gt;</code></pre>
+    <div class="title">
+        <i class="cybg-star-06 cybg"></i>
+        <h1>CyberG Icons</h1>
+        <i class="cybg-star-06 cybg"></i>
     </div>
-    <h2>Bellow you can find the icons</h2>
+    <!-- <div class="content-menu">
+        <h3>Content Menu:</h3>
+        <ul>
+            <li><i class="cybg-circle-13 cybg"></i><a href="#how-to-install">How to Install</a></li>
+            <li><i class="cybg-circle-13 cybg"></i><a href="#how-to-use">How to use</a></li>
+            <li><i class="cybg-circle-13 cybg"></i><a href="#icons-guide">Icons Guide</a></li>
+        </ul>
+    </div> -->
+    <div class="guide">
+        <h2>How to Install</h2>
+        <p>From setting up to adding icons and customizing their look, this guide gives you everything you need to
+            integrate CyberG Icons into your web projects.</p>
+        <div class="options">
+            <h3>via CDN</h3>
+            <p>Copy and paste the following line into the <code>&lt;head&gt;</code> of your HTML file:</p>
+            <pre><code>&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/gheorghiciucgeorgia/CyberG-icons@v1.0.1/cyberG.css"&gt;</code></pre>
+        </div>
+        <div class="options">
+            <h3>Download Locally</h3>
+            <div class="btns">
+                <button>
+                    <a href="https://github.com/gheorghiciucgeorgia/CyberG-icons" target="_blank">Download from GitHub<i
+                            class="ri-github-fill"></i></a>
+                </button>
+                <button class="zip">
+                    <a href="https://github.com/gheorghiciucgeorgia/CyberG-icons/releases/latest/download/CyberG.icons.zip"
+                        download>Download
+                        ZIP file<i class="ri-file-zip-line"></i></a>
+                </button>
+            </div>
+
+            <p>After downloading, include the <code>cyberG.css</code> file in your project and link it in your HTML:</p>
+            <pre><code>&lt;link rel="stylesheet" href="path/to/cyberG.css"&gt;</code></pre>
+        </div>
+
+        <h2>How to use</h2>
+        <p class="description">CyberG Icons can be placed anywhere in your markup. They’re engineered to inherit
+            typography styles and align
+            naturally with text content.</p>
+        <p>This guide will walk you through adding CyberG Icons to your project, applying shorthand classes, inserting
+            icons into your markup, leveraging aliases, and other advanced tips.
+        </p>
+        <div class="options">
+            <h3>Example</h3>
+            <p>To use an icon, add an <code>&lt;i&gt;</code> tag with the desired class. <strong>For example</strong>:
+            </p>
+            <pre><code>&lt;i class="cybg-barcode"&gt;&lt;/i&gt;</code></pre>
+
+        </div>
+
+        <h2>You can use the <u>CyberG Icons</u> on the following:</h2>
+        <div class="stacks">
+            <div class="brand">
+                <i class="ri-reactjs-line"></i>
+                <p>React</p>
+            </div>
+            <div class="brand">
+                <i class="ri-vuejs-line"></i>
+                <p>Vue.js</p>
+            </div>
+            <div class="brand">
+                <i class="ri-angularjs-line"></i>
+                <p>Angular</p>
+            </div>
+            <div class="brand">
+                <i class="fa-brands fa-ember"></i>
+                <p>Ember</p>
+            </div>
+            <div class="brand">
+                <i class="fa-brands fa-sass"></i>
+                <p>Sass</p>
+            </div>
+            <div class="brand">
+                <i class="fa-brands fa-less"></i>
+                <p>Less</p>
+            </div>
+            <div class="brand">
+                <i class="fa-brands fa-python"></i>
+                <p>Python</p>
+            </div>
+            <div class="brand">
+                <i class="fa-brands fa-wordpress-simple"></i>
+                <p>WordPress</p>
+            </div>
+            <div class="brand">
+                <i class="fa-brands fa-squarespace"></i>
+                <p>Squarespace</p>
+            </div>
+            <div class="brand">
+                <i class="fa-brands fa-drupal"></i>
+                <p>Drupal</p>
+            </div>
+        </div>
+    </div>
+    <h2 style="text-align:center;">Bellow you can find the icons</h2>
     <div class="icons"></div>
     <script src="./script.js"></script>
 </body>

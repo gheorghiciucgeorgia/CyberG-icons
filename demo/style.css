@@ -11,16 +11,65 @@ body {
     background-color: #C4E4FF;
 }
 
-h1,
-h2 {
+h1 {
     text-align: center;
 }
 
-.guide {
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title i {
+    font-size: 30pt;
+    margin-right: 15px;
+    color: #D20062;
+}
+
+.title h1 {
+    margin-right: 15px;
+}
+
+.content-menu {
     margin: 50px 50px;
+    border-radius: 25px;
+    padding: 25px 25px 25px 40px;
+    background-color: #a9d6fb;
+    color: #D20062;
+}
+
+.content-menu ul {
+    padding-left: 25px;
+}
+
+.content-menu ul li {
+    list-style: none;
+}
+
+.content-menu ul li i {
+    margin-right: 15px;
+}
+
+.content-menu ul li a {
+    color: inherit;
+}
+
+.description {
+    border-left: 2px solid #C4E4FF;
+    padding: 12px;
+    font-weight: bold;
+}
+
+.guide {
+    margin: 25px 50px;
     background-color: #D6589F;
-    padding: 20px;
+    padding: 50px;
     border-radius: 10px;
+}
+
+.guide p {
+    margin-bottom: 20px;
 }
 
 .guide pre {
@@ -36,9 +85,60 @@ h2 {
 
 .guide code {
     font-family: 'Fira Mono', 'Consolas', 'Menlo', monospace;
-    color: #ffb86c;
+    color: #C4E4FF;
     background: none;
     font-size: 1em;
+}
+
+.options {
+    background-color: #D895DA;
+    padding: 15px 20px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+
+.options p {
+    border-left: 2px solid #C4E4FF;
+    padding-left: 12px;
+}
+
+.btns {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.btns button {
+    background-color: #a9d6fb;
+    padding: 12px 20px;
+    border-radius: 25px;
+    border: none;
+    color: black;
+    margin-right: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    ;
+}
+
+.btns button a {
+    text-decoration: none;
+    color: black;
+}
+
+.btns button a i {
+    margin-left: 10px;
+    font-size: 15pt;
+}
+.stacks{
+    
+}
+.stacks .brand i {
+    font-size: 20pt;
+}
+
+.fa-brands,
+.fab {
+    font-family: "Font Awesome 6 Brands" !important;
 }
 
 .icons {
