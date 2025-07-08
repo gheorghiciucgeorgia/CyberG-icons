@@ -62,9 +62,9 @@ h1 {
 }
 
 .guide {
-    margin: 25px 50px;
+    margin: 0px 50px;
     background-color: #D6589F;
-    padding: 50px;
+    padding: 35px 50px;
     border-radius: 10px;
 }
 
@@ -94,7 +94,7 @@ h1 {
     background-color: #D895DA;
     padding: 15px 20px;
     border-radius: 25px;
-    margin-bottom: 20px;
+    margin-bottom: 35px;
 }
 
 .options p {
@@ -129,11 +129,39 @@ h1 {
     margin-left: 10px;
     font-size: 15pt;
 }
-.stacks{
-    
+
+.stacks {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+    justify-items: center;
+    align-items: center;
 }
+
+.stacks .brand {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    background-color: #C4E4FF;
+    border-radius: 25px;
+    padding: 10px 20px;
+    color: #D20062;
+    width: 180px;
+    max-width: 100%;
+    text-align: center;
+}
+
 .stacks .brand i {
     font-size: 20pt;
+    margin-right: 15px;
+}
+
+.stacks .brand p {
+    font-size: clamp(0.8rem, 2vw, 1rem);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .fa-brands,
@@ -143,16 +171,18 @@ h1 {
 
 .icons {
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    gap: 24px;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 2rem;
     justify-items: center;
     align-items: center;
-    padding: 24px;
+    padding: 25px;
+    margin: 0px 25px 35px;
 }
 
 .icon {
-    border: 2px solid #D895DA;
+    border: 2px solid #D20062;
     background-color: #D895DA;
+    border-radius: 25px;
     color: #D20062;
     display: flex;
     flex-direction: column;
@@ -166,7 +196,7 @@ h1 {
 }
 
 .icon .ri-file-copy-line {
-    color: black;
+    color: #C4E4FF;
     cursor: pointer;
     position: relative;
     display: inline-block;
@@ -186,4 +216,80 @@ h1 {
     white-space: nowrap;
     z-index: 2;
     pointer-events: none;
+}
+
+footer {
+    background-color: #D20062;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 5px 30px;
+    color: #C4E4FF;
+    font-size: 8pt;
+}
+
+.socials {
+    font-size: 30pt;
+}
+
+.socials a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* @media (max-width: 1400px) {
+    .stacks {
+        grid-template-columns: repeat(4, 1fr);
+    }
+} */
+
+@media (max-width: 1200px) {
+    .stacks {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 969px) {
+    .stacks {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 700px) {
+    .title {
+        margin: 0px 30px;
+    }
+
+    .title h1 {
+        margin-right: 0px;
+    }
+
+    .title i:first-child {
+        margin-right: 10px;
+    }
+
+    .guide {
+        padding: 35px 30px;
+        margin: 0px 20px;
+    }
+
+    .btns {
+        flex-direction: column;
+    }
+
+    .btns button {
+        margin-bottom: 20px;
+        margin-right: 0px;
+    }
+
+    .stacks {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width: 400px) {
+    .stacks .brand {
+        width: 170px;
+    }
 }
