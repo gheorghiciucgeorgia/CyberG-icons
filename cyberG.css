@@ -1,9 +1,10 @@
 @font-face {
   font-family: 'CyberG';
-  src: url('fonts/CyberG.eot?2bp8j4');
-  src: url('fonts/CyberG.eot?2bp8j4#iefix') format('embedded-opentype'),
-    url('fonts/CyberG.ttf?2bp8j4') format('truetype'),
-    url('fonts/CyberG.woff?2bp8j4') format('woff');
+  src: url('fonts/CyberG.eot?gp22wg');
+  src: url('fonts/CyberG.eot?gp22wg#iefix') format('embedded-opentype'),
+    url('fonts/CyberG.ttf?gp22wg') format('truetype'),
+    url('fonts/CyberG.woff?gp22wg') format('woff'),
+    url('fonts/CyberG.svg?gp22wg#CyberG') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -22,6 +23,66 @@ i {
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.cybg-circle-15:before {
+  content: "\e945";
+}
+
+.cybg-circle-16:before {
+  content: "\e946";
+}
+
+.cybg-ell-x-2-star:before {
+  content: "\e947";
+}
+
+.cybg-ell-x-form:before {
+  content: "\e948";
+}
+
+.cybg-ell-x-star:before {
+  content: "\e949";
+}
+
+.cybg-flower-19:before {
+  content: "\e94a";
+}
+
+.cybg-planet-04:before {
+  content: "\e94b";
+}
+
+.cybg-planet-05:before {
+  content: "\e94c";
+}
+
+.cybg-planet-06:before {
+  content: "\e94d";
+}
+
+.cybg-star-22:before {
+  content: "\e94e";
+}
+
+.cybg-star-23:before {
+  content: "\e94f";
+}
+
+.cybg-star-24:before {
+  content: "\e950";
+}
+
+.cybg-star-25:before {
+  content: "\e951";
+}
+
+.cybg-star-26:before {
+  content: "\e952";
+}
+
+.cybg-star-27:before {
+  content: "\e953";
 }
 
 .cybg-barcode:before {
